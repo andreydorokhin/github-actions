@@ -1,9 +1,9 @@
 name: Demo Workflow
 on: workflow_dispatch
 jobs:
-  print_Hello:
+  print:
     runs-on: ubuntu-latest
     steps:
-      - name: print to console
-        run: echo Hello GitHub Actions
+      - name: Print to console
+        run: echo "Hello GitHub Actions"
       
