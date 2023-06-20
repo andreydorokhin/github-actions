@@ -1,7 +1,7 @@
 name: Demo Workflow
 on: workflow_dispatch
 jobs:
-  print:
+  print_Hello:
     runs-on: ubuntu-latest
     steps:
       - name: Print to console
